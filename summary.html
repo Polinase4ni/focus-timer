@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Summary</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="timer.html">Timer</a>
+    <a href="summary.html">Summary</a>
+    <a href="tips.html">Tips</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<main>
+  <div class="container">
+    <div class="card">
+      <h1>Study Summary</h1>
+
+      <p class="stat">Completed sessions: <strong id="sessions">0</strong></p>
+      <p class="stat">Total minutes studied: <strong id="minutes">0</strong></p>
+
+      <button class="secondary" onclick="resetData()">Reset statistics</button>
+    </div>
+  </div>
+</main>
+
+<footer></footer>
+
+<script src="js/navigation.js"></script>
+<script src="js/sum.js"></script>
+</body>
+</html>
